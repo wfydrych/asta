@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/asta/static/css/main.907981af.css",
+    "main.js": "/asta/static/js/main.7ab01228.js",
+    "index.html": "/asta/index.html",
+    "main.907981af.css.map": "/asta/static/css/main.907981af.css.map",
+    "main.7ab01228.js.map": "/asta/static/js/main.7ab01228.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.907981af.css",
+    "static/js/main.7ab01228.js"
+  ]
+}

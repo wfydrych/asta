@@ -1,0 +1,80 @@
+.section13
+  width: 100%
+
+  &__title
+    margin-top: 30px
+    text-align: center
+    font-family: "Exo"
+    font-weight: 600
+    color: #474646
+    font-size: 20px
+
+    &::after
+      content: ""
+      border-top: 2px solid #fcb900
+      width: 60%
+      margin-left: 20%
+      display: block
+      padding-top: 0.2em
+      margin-bottom: 30px
+
+  &__content
+    width: 94vw
+    font-family: "Open Sans"
+    font-weight: 600
+    font-size: 15px
+    margin-left: 3vw
+
+.faq 
+  width: 100%
+  padding-top: 10px
+  padding-bottom: 30px
+
+  &__title 
+    margin: 0
+    padding-bottom: 25px
+
+  &__question 
+    width: 100%
+    border-bottom: 1px solid rgba(0,0,0,.05)
+
+  &__question-button 
+    width: 100%
+    display: flex
+    justify-content: space-between
+    border: none
+    background-color: transparent
+    padding: 0px
+    cursor: pointer
+    padding-top: 18px
+    padding-bottom: 18px
+    font-family: "Open Sans"
+    font-weight: 600
+    font-size: 15px
+
+    &::after 
+      // content: url(../images/icon-arrow-down.svg)
+      content: ""
+      margin-right: 17px
+      transform: rotate(90deg)
+
+  &__desc 
+    margin-left: -40px
+    padding-right: 17px
+    margin-top: 0
+    margin-bottom: 0
+    height: 0
+    overflow: hidden
+    transition: all 400ms ease-out
+
+.faq__desc.show-description 
+  height: min-content
+  margin-bottom: 15px
+
+.faq__question-button::after 
+  transition: transform 300ms ease-out
+
+.font-weight-bold::after 
+  transform: rotate(720deg)
+
+  

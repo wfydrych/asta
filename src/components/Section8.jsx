@@ -1,5 +1,6 @@
 import React from 'react'
 import './Section8.sass'
+import {Icon} from 'semantic-ui-react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 
@@ -23,13 +24,13 @@ const Section8 = () => {
         Die ASTA-Treppen können verwendet werden als:
         <br /><br />
         <ul>
-          <li>Haupttreppe</li>
-          <li>technische Treppen in öffentlichen Gebäuden,</li>
-          <li>Wirtschaftstreppe,</li>
-          <li>Garagentreppe,</li>
-          <li>Kellertreppe,</li>
-          <li>Terrassentreppe,</li>
-          <li>Dachbodentreppe.</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Haupttreppe</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> technische Treppen in öffentlichen Gebäuden,</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Wirtschaftstreppe,</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Garagentreppe,</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Kellertreppe,</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Terrassentreppe,</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Dachbodentreppe.</li>
         </ul>
       </div>
       <AliceCarousel

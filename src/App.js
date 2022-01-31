@@ -17,6 +17,13 @@ import Section11 from './components/Section11'
 import Section12 from './components/Section12'
 import Section13 from './components/Section13'
 import Section14 from './components/Section14'
+import Footer from './components/Footer'
+
+const styleLink = document.createElement("link")
+styleLink.rel = "stylesheet"
+styleLink.href = 
+"https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css"
+document.head.appendChild(styleLink)
 
 function App() {
   return (
@@ -39,6 +46,7 @@ function App() {
       <Section12 />
       <Section13 />
       <Section14 />
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Section1.sass'
+import {Icon} from 'semantic-ui-react'
 
 const Section1 = () => {
   return (
@@ -13,11 +14,11 @@ const Section1 = () => {
         Stahltreppen sind in den folgenden Varianten erhältlich:
         <br /><br />
         <ul>
-          <li>Außentreppen</li>
-          <li>Innentreppen</li>
-          <li>Wendelpodeste</li>
-          <li>Podesttreppen</li>
-          <li>Treppen ohne Podest</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Außentreppen</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Innentreppen</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Wendelpodeste</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Podesttreppen</li>
+          <li><Icon enabled name='check' color='yellow' size='small' /> Treppen ohne Podest</li>
         </ul>
         <br /><br />
         Es stehen Ihnen bis zu 14 Konfigurationen zur Verfügung. Außerdem entscheiden Sie selbst, welche Art der Stufenfüllung für Sie optimal ist: 

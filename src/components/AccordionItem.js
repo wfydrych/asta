@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import {Icon} from 'semantic-ui-react'
 
 const AccordionItem = ({
   showDescription,
@@ -17,7 +18,7 @@ const AccordionItem = ({
         className={`faq__question-button ${fontWeightBold}`}
         onClick={onClick}
       >
-        {item.question}
+        <Icon enabled name='question' color='yellow' size='small' /> {item.question}
       </button>
     </dt>
     <dd>

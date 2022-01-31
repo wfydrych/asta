@@ -1,5 +1,6 @@
 import React from 'react'
 import './Info.sass'
+import {Icon} from 'semantic-ui-react'
 
 const Info = () => {
   return (
@@ -9,6 +10,12 @@ const Info = () => {
       IN DER WAHL DER TREPPEN?<br /><br />
 
       <strong>KONTAKTIERE MICH</strong>
+      <br /><br />
+      <strong>Sebastian Wirmanski</strong><br />
+      Product sales manager
+      <br /><br />
+      <Icon enabled name='phone' color='yellow' /> +41 791 746 555<br /><br />
+      <Icon enabled name='mail outline' color='yellow' /> kronenkar@gmx.ch<br /><br />
       </div>
 
       <div className='info__questions'>

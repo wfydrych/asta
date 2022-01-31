@@ -1,12 +1,12 @@
 .topbar
   background-color: #474646
-  width: 100%
+  width: 100vw
   color: white
   display: flex
-  padding: 0.7em
-  position: fixed
+  position: relative
   top: 0
   left: 0
+  z-index: 10
 
   &__logo
     font-family: "Exo"
@@ -15,3 +15,14 @@
     color: #fff
     cursor: pointer
     margin-left: 30px
+
+  &__bg
+    position: fixed
+    background-color: #474646
+    width: 100vw
+    color: white
+    display: flex
+    padding: 10px
+    top: 0
+    left: 0
+    z-index: 10

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Section11.sass'
+import {Icon} from 'semantic-ui-react'
 
 const Section11 = () => {
   return (
@@ -15,18 +16,18 @@ const Section11 = () => {
 
         <div className='description'>
           <div className='description__column'>
-            <div className='description__column__title'>STAHLBETONTREPPEN</div>
+            <div className='description__column__title'><Icon enabled name='location arrow' color='yellow' size='small' /> STAHLBETONTREPPEN</div>
             Stahlbetontreppen sind mit der Gebäudestruktur verbunden, daher erfordert jede Änderung des Konzepts und der Lage eine 
             entsprechende Änderung des Projekts und neue Absprachen mit dem Projektanten. Es ist auch schwieriger, den Treppen eine 
             kompliziertere Form zu geben.
           </div>
           <div className='description__column'>
-            <div className='description__column__title'>HOLZTREPPEN</div>
+            <div className='description__column__title'><Icon enabled name='location arrow' color='yellow' size='small' /> HOLZTREPPEN</div>
             Holztreppen können in jeder Phase des Ausbaus eines Hauses gebaut werden, sie sind jedoch wesentlich weniger haltbar 
             als Treppen aus Stahlbeton oder Stahl. Es ist auch zu bedenken, dass sie regelmäßig gewartet werden müssen.
           </div>
           <div className='description__column'>
-            <div className='description__column__title'>ASTA-MODULARTREPPEN</div>
+            <div className='description__column__title'><Icon enabled name='location arrow' color='yellow' size='small' /> ASTA-MODULARTREPPEN</div>
             Die modulare Treppen bestehen aus Stahl, der durch Verzinkung und Pulverbeschichtung vor Korrosion geschützt ist, 
             was eine lange Lebensdauer bei allen Witterungsbedingungen garantiert und eine langjährige Nutzung ermöglicht. 
             Die vorbereiteten Treppenelemente können in jeder Bauphase zusammengebaut und bei einem eventuellen späteren Umbau 

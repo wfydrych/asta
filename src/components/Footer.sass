@@ -1,0 +1,72 @@
+.footer
+  width: 100%
+  min-height: 150px
+  background-color: #474646
+  padding: 20px
+  box-sizing: border-box
+  display: flex
+  justify-content: space-evenly
+
+  &__sections
+    width: 20vw
+    box-sizing: border-box
+    padding: 10px
+
+  &__section1
+    &__contact
+      font-family: "Exo"
+      font-weight: 600
+      font-size: 20px
+      color: #fff
+
+      &::after
+        content: ""
+        border-top: 2px solid #fcb900
+        width: 60%
+        display: block
+        margin-top: 0.5em
+        margin-bottom: 1em
+
+    &__number
+      font-family: "Open Sans"
+      font-weight: 600
+      font-size: 16px
+      color: #808080
+      transition: .5s
+
+      &:hover
+        cursor: pointer
+        color: #fcb900
+        transition: .5s
+
+  &__title
+    font-family: "Exo"
+    font-weight: 600
+    font-size: 13.5px
+    color: #fff
+    padding-bottom: 20px
+
+  &__links
+    font-family: "Open Sans"
+    font-weight: 600
+    font-size: 13.5px
+    color: #808080
+    transition: .5s
+    padding-bottom: 10px
+
+    &:hover
+      cursor: pointer
+      color: #fcb900
+      transition: .5s
+
+  &__icons
+    color: rgba(168, 168, 168, 1)
+    transition: .4s
+
+    &:hover
+      cursor: pointer
+      color: white
+      transition: .4s
+
+  &__iconscontainer
+    padding-right: 20px

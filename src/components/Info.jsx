@@ -25,7 +25,7 @@ const Info = () => {
       <br /><br />
       Konfigurieren Sie Ihre Treppe kostenlos. Setzen Sie auf praktische und optisch ansprechende Innenausstattungen.
       <br /><br />
-      <ul>
+      <ul className='menu-list'>
         <li>WAS SIND FERTIGE MODULARE TREPPEN?</li>
         <li>MODULARE TREPPEN – ABMESSUNGEN</li>
         <li>VORTEILE DER ASTA-MODULTREPPE</li>

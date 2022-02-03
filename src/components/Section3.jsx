@@ -6,7 +6,7 @@ import './Section3.sass'
 const responsive = {
   0: { items: 1 },
   568: { items: 3 },
-  1024: { items: 5 },
+  1024: { items: 4 },
 };
 
 const items = [

@@ -20,9 +20,9 @@ const Section10 = () => {
         Die Art der Montage hängt von der Art der Treppe ab – die Montage einer Stahltreppe mit geradem Lauf unterscheidet sich von der Montage 
         einer modularen Zwischentreppe oder einer Treppe mit einem Podest auf Säulen. Möchten Sie mehr wissen? Installationsanleitung herunterladen.
         <br /><br />
-        <div className='section10__content__bg'>
-          <div className='section10__content__bg__btn'>MONTAGEANLEITUNG FÜR TREPPEN HERUNTERLADEN</div>
-        </div>
+      </div>
+      <div className='section10__bg'>
+        <div className='section10__bg__btn'>MONTAGEANLEITUNG FÜR TREPPEN HERUNTERLADEN</div>
       </div>
     </div>
   )

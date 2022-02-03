@@ -10,9 +10,9 @@ const Section2 = () => {
         um den Raum zu optimieren und das Design an die Inneneinrichtung anzupassen. 
         Prüfen Sie die verfügbaren Optionen und Abmessungen der Modultreppe oder rufen Sie unsere Fachleute an, 
         die Ihnen bei der Auswahl des richtigen Modells für Ihre räumlichen Gegebenheiten helfen werden.
-        <div className='section2__content__bg'>
-          <div className='section2__content__bg__btn'>PREISLISTE</div>
-        </div>
+      </div>
+      <div className='section2__bg'>
+        <div className='section2__bg__btn'>PREISLISTE</div>
       </div>
     </div>
   )

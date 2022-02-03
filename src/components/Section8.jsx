@@ -6,12 +6,13 @@ import 'react-alice-carousel/lib/alice-carousel.css'
 
 const responsive = {
   0: { items: 1 },
-};
+  1024: { items: 1},
+}
 
 const items = [
   <div className="item" data-value="1"><img alt='' src='https://www.intertlc.de/wp-content/uploads/2021/06/modultreppe-asta-12.jpg' /></div>,
   <div className="item" data-value="2"><img alt='' src='https://www.intertlc.de/wp-content/uploads/2021/06/modultreppe-asta-11.jpg' /></div>,
-];
+]
 
 const Section8 = () => {
   return (
@@ -40,8 +41,9 @@ const Section8 = () => {
           controlsStrategy="alternate"
           infinite
           autoWidth
+          // autoHeight
           autoPlay
-          animationDuration='4000'
+          animationDuration='2000'
         />
     </div>
   )

@@ -5,6 +5,7 @@
   padding: 20px
   box-sizing: border-box
   display: flex
+  flex-direction: row
   justify-content: space-evenly
 
   &__sections
@@ -62,6 +63,7 @@
   &__icons
     color: rgba(168, 168, 168, 1)
     transition: .4s
+    display: inline-block
 
     &:hover
       cursor: pointer
@@ -69,4 +71,13 @@
       transition: .4s
 
   &__iconscontainer
-    padding-right: 20px
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+
+@media (max-width: 700px)
+  .footer
+    flex-direction: column
+
+    &__sections
+      width: 90vw

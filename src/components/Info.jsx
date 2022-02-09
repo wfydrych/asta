@@ -1,6 +1,13 @@
 import React from 'react'
 import './Info.sass'
-import {Icon} from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react'
+
+function scrollTo(selector, yOffset = 0) {
+  const el = document.querySelector(selector)
+  const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset
+
+  el.scrollIntoView({top: y, behavior: 'smooth'})
+}
 
 const Info = () => {
   return (
@@ -26,19 +33,19 @@ const Info = () => {
         Konfigurieren Sie Ihre Treppe kostenlos. Setzen Sie auf praktische und optisch ansprechende Innenausstattungen.
         <br /><br />
         <ul className='menu-list'>
-          <li>WAS SIND FERTIGE MODULARE TREPPEN?</li>
-          <li>MODULARE TREPPEN – ABMESSUNGEN</li>
-          <li>VORTEILE DER ASTA-MODULTREPPE</li>
-          <li>MODULARE AUSSEN- UND INNENTREPPEN – WARUM WIR</li>
-          <li>MODULARE TREPPEN – AUSGEWÄHLTE PROJEK</li>
-          <li> MEINUNGEN DER KUNDEN</li>
-          <li>EXTERNE UND INTERNE MODULARE TREPPEN – BEZEICHNUNG</li>
-          <li>STAHLTREPPEN – PREIS</li>
-          <li>MODULARE TREPPEN – KONFIGURIEREN</li>
-          <li>WIE WERDEN MODULARE TREPPEN MONTIERT?</li>
-          <li>WO KANN MAN MODULARE TREPPEN KAUFEN?</li>
-          <li>VERKAUFSSTELLEN FÜR MODULARE TREPPEN</li>
-          <li>HÄUFIG GESTELLTE FRAGEN</li>
+          <li onClick={() => scrollTo('.section1', 0)}>WAS SIND FERTIGE MODULARE TREPPEN?</li>
+          <li onClick={() => scrollTo('.section2', 0)}>MODULARE TREPPEN – ABMESSUNGEN</li>
+          <li onClick={() => scrollTo('.section3', 0)}>VORTEILE DER ASTA-MODULTREPPE</li>
+          <li onClick={() => scrollTo('.section4', 0)}>MODULARE AUSSEN- UND INNENTREPPEN – WARUM WIR</li>
+          <li onClick={() => scrollTo('.section5', 0)}>MODULARE TREPPEN – AUSGEWÄHLTE PROJEKT</li>
+          <li onClick={() => scrollTo('.section6', 0)}> MEINUNGEN DER KUNDEN</li>
+          <li onClick={() => scrollTo('.section8', 0)}>EXTERNE UND INTERNE MODULARE TREPPEN – BEZEICHNUNG</li>
+          <li onClick={() => scrollTo('.section9', 0)}>STAHLTREPPEN – PREIS</li>
+          <li onClick={() => scrollTo('.section9', 0)}>MODULARE TREPPEN – KONFIGURIEREN</li>
+          <li onClick={() => scrollTo('.section10', 0)}>WIE WERDEN MODULARE TREPPEN MONTIERT?</li>
+          <li onClick={() => scrollTo('.section11', 0)}>WO KANN MAN MODULARE TREPPEN KAUFEN?</li>
+          <li onClick={() => scrollTo('.section12', 0)}>VERKAUFSSTELLEN FÜR MODULARE TREPPEN</li>
+          <li onClick={() => scrollTo('.section13', 0)}>HÄUFIG GESTELLTE FRAGEN</li>
         </ul>
         <br /><br />
         <div className='gewinner'>

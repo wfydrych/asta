@@ -27,10 +27,10 @@ const Footer = () => {
       </div>
       <div className='footer__section4 footer__sections'>
         <div className='footer__title'>FINDEN SIE UNS AUF</div>
-          <span className='footer__iconscontainer'><Icon enabled name='facebook' size='large' className='footer__icons' /></span>
-          <span className='footer__iconscontainer'><Icon enabled name='linkedin' size='large' className='footer__icons' /></span>
-          <span className='footer__iconscontainer'><Icon enabled name='youtube' size='large' className='footer__icons' /></span>
-          <span className='footer__iconscontainer'><Icon enabled name='pinterest' size='large' className='footer__icons' /></span>
+          <span className='footer__iconscontainer'><Icon enabled name='facebook' size='large' className='footer__icons' />
+          <Icon enabled name='linkedin' size='large' className='footer__icons' />
+          <Icon enabled name='youtube' size='large' className='footer__icons' />
+          <Icon enabled name='pinterest' size='large' className='footer__icons' /></span>
       </div>
     </div>
   )

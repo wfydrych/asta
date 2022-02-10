@@ -10,10 +10,10 @@ const responsive = {
 };
 
 const items = [
-  <div className="item" data-value="1"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' /></div>,
-  <div className="item" data-value="2"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' /></div>,
-  <div className="item" data-value="3"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' /></div>,
-  <div className="item" data-value="4"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' /></div>,
+  <div className="item" data-value="1"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' loading="lazy" /></div>,
+  <div className="item" data-value="2"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' loading="lazy" /></div>,
+  <div className="item" data-value="3"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' loading="lazy" /></div>,
+  <div className="item" data-value="4"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' loading="lazy" /></div>,
 ]
 
 const Section7 = () => {

@@ -49,7 +49,7 @@ const Info = () => {
         </ul>
         <br /><br />
         <div className='gewinner'>
-          <img alt='asta-gewinner-2022' src='https://www.intertlc.de/wp-content/uploads/2021/12/asta-zloty-medal-budma3.-asta-DE.jpg' />
+          <img alt='asta-gewinner-2022' src='https://www.intertlc.de/wp-content/uploads/2021/12/asta-zloty-medal-budma3.-asta-DE.jpg' loading="lazy" />
         </div>
       </div>
     </div>

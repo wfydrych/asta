@@ -41,6 +41,8 @@ const Section8 = () => {
           controlsStrategy="alternate"
           infinite
           autoWidth
+          autoPlay
+          animationDuration="4000"
         />
     </div>
   )

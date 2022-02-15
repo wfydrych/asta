@@ -134,7 +134,7 @@ const Section9 = () => {
           </div>
           <div className='section9__bg__btn__columnright'>
             Sebastian Wirmanski<br />
-            +41 791 746 555<br />
+            079 174 65 55<br />
             kronenkar@gmx.ch
           </div>
         </div>

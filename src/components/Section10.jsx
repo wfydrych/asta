@@ -22,7 +22,9 @@ const Section10 = () => {
         <br /><br />
       </div>
       <div className='section10__bg'>
-        <div className='section10__bg__btn'>MONTAGEANLEITUNG FÜR TREPPEN HERUNTERLADEN</div>
+        <a href="https://www.intertlc.de/Download/MODULTREPPE_ASTA_MONTAGEANLEITUNG.pdf" target="_blank" rel="noreferrer">
+          <div className='section10__bg__btn'>MONTAGEANLEITUNG</div>
+        </a>
       </div>
     </div>
   )

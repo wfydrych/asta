@@ -3,11 +3,18 @@ import './Section7.sass'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 
+function scrollTo(selector, yOffset = 0) {
+  const el = document.querySelector(selector)
+  const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset
+
+  el.scrollIntoView({top: y, behavior: 'smooth'})
+}
+
 const responsive = {
   0: { items: 1 },
   568: { items: 2 },
   1024: { items: 3 },
-};
+}
 
 const items = [
   <div className="item" data-value="1"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' loading="lazy" /></div>,
@@ -30,7 +37,7 @@ const Section7 = () => {
         />
       </div>
       <div className='section7__bg'>
-        <div className='section7__bg__btn'>VERKAUFSSTELLEN FÜR MODULARE TREPPEN</div>
+        <div onClick={() => scrollTo('.section12', 0)}className='section7__bg__btn'>VERKAUFSSTELLEN FÜR MODULARE TREPPEN</div>
       </div>
     </div>
   )

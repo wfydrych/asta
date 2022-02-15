@@ -19,9 +19,9 @@ const Info = () => {
       <strong>KONTAKTIERE MICH</strong>
       <br /><br />
       <strong>Sebastian Wirmanski</strong><br />
-      Product sales manager
+      Verkaufsleiter Schweiz
       <br /><br />
-      <Icon enabled name='phone' color='yellow' /> +41 791 746 555<br /><br />
+      <Icon enabled name='phone' color='yellow' /> 079 174 65 55<br /><br />
       <Icon enabled name='mail outline' color='yellow' /> kronenkar@gmx.ch<br /><br />
       </div>
 

@@ -1,5 +1,6 @@
 .section6
   width: 100vw
+  padding-top: 60px
 
   &__title
     margin-top: 30px
@@ -21,6 +22,44 @@
   &__content
     width: 80vw
     font-family: "Open Sans"
-    font-weight: 600
+    font-weight: 300
     font-size: 15px
     margin-left: 10vw
+
+.opinion
+  display: flex
+  padding-top: 15px
+  
+  &__left
+    box-sizing: border-box
+    width: 20%
+    padding: 10px
+
+    strong
+      font-weight: 600
+
+  &__right
+    box-sizing: border-box
+    width: 80%
+    padding: 10px
+
+    &__stars
+      width: 80px
+      margin-right: 10px
+
+.divider
+  margin-left: 10%
+  width: 80%
+  border-bottom: 1px solid black
+  padding-top: 15px
+
+
+@media (max-width: 800px)
+  .opinion
+    flex-direction: column
+
+    &__left
+      width: 100%
+
+    &__right
+      width: 100%

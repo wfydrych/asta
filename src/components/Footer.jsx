@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer__section1 footer__sections'>
         <div className='footer__section1__contact'>KONTAKT</div>
-        <div className='footer__section1__number'><Icon enabled name='phone' size='large' /> +41 791 746 555</div>
+        <div className='footer__section1__number'><Icon enabled name='phone' size='large' /> 079 174 65 55</div>
       </div>
       <div className='footer__section2 footer__sections'>
         <div className='footer__title'>INFORMATION</div>
@@ -27,10 +27,20 @@ const Footer = () => {
       </div>
       <div className='footer__section4 footer__sections'>
         <div className='footer__title'>FINDEN SIE UNS AUF</div>
-          <span className='footer__iconscontainer'><Icon enabled name='facebook' size='large' className='footer__icons' />
-          <Icon enabled name='linkedin' size='large' className='footer__icons' />
-          <Icon enabled name='youtube' size='large' className='footer__icons' />
-          <Icon enabled name='pinterest' size='large' className='footer__icons' /></span>
+          <span className='footer__iconscontainer'>
+            <a href="https://www.facebook.com/TLC.Architectural.Metalwork/" target="_blank" rel="noreferrer">
+              <Icon enabled name='facebook' size='large' className='footer__icons' />
+            </a>
+            <a href="https://www.linkedin.com/company/inter-tlc-group" target="_blank" rel="noreferrer">
+              <Icon enabled name='linkedin' size='large' className='footer__icons' />
+            </a>
+            <a href="https://www.youtube.com/channel/UCS-jF8a18UdskTzARkltDRQ" target="_blank" rel="noreferrer">
+              <Icon enabled name='youtube' size='large' className='footer__icons' />
+            </a>
+            <a href="https://www.pinterest.ch/tlcgroup0031/" target="_blank" rel="noreferrer">
+              <Icon enabled name='pinterest' size='large' className='footer__icons' />
+            </a>
+          </span>
       </div>
     </div>
   )

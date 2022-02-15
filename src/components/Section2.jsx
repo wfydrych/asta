@@ -12,9 +12,11 @@ const Section2 = () => {
         die Ihnen bei der Auswahl des richtigen Modells für Ihre räumlichen Gegebenheiten helfen werden.
       </div>
       <div className='section2__bg'>
-        <a href="https://www.intertlc.de/Download/Preisliste_Modultreppe_Asta.pdf" target="_blank" rel="noreferrer">
-          <div className='section2__bg__btn'>PREISLISTE</div>
-        </a>
+        <div className='section2__bg__btn'>
+          <a href="https://www.intertlc.de/Download/Preisliste_Modultreppe_Asta.pdf" target="_blank" rel="noreferrer">
+            PREISLISTE
+          </a>
+        </div>
       </div>
     </div>
   )

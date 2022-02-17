@@ -16,7 +16,7 @@ const Info = () => {
       SIE BENÖTIGEN HILFE<br />
       IN DER WAHL DER TREPPEN?<br /><br />
 
-      <strong>KONTAKTIERE MICH</strong>
+      <strong>KONTAKTIEREN SIE MICH</strong>
       <br /><br />
       <strong>Sebastian Wirmanski</strong><br />
       Verkaufsleiter Schweiz

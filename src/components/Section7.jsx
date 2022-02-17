@@ -3,6 +3,20 @@ import './Section7.sass'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 
+const YoutubeEmbed = ({ embedId }) => (
+  <div className="video-responsive">
+    <iframe
+      width="320"
+      height="200"
+      src={`https://www.youtube.com/embed/${embedId}`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
+  </div>
+)
+
 function scrollTo(selector, yOffset = 0) {
   const el = document.querySelector(selector)
   const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset
@@ -12,15 +26,23 @@ function scrollTo(selector, yOffset = 0) {
 
 const responsive = {
   0: { items: 1 },
-  568: { items: 2 },
-  1024: { items: 3 },
+  820: { items: 2 },
+  1250: { items: 3 },
 }
 
 const items = [
-  <div className="item" data-value="1"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' loading="lazy" /></div>,
-  <div className="item" data-value="2"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' loading="lazy" /></div>,
-  <div className="item" data-value="3"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' loading="lazy" /></div>,
-  <div className="item" data-value="4"><img alt='' width='350px' src='https://i.ytimg.com/vi_webp/7BJQL79Ga1Q/sddefault.webp' loading="lazy" /></div>,
+  <div className="item" data-value="1">
+    <YoutubeEmbed embedId="tXIVwXe1KRM" />
+  </div>,
+  <div className="item" data-value="2">
+    <YoutubeEmbed embedId="jI63QIoCG3k" />
+  </div>,
+  <div className="item" data-value="3">
+    <YoutubeEmbed embedId="7BJQL79Ga1Q" />
+  </div>,
+  <div className="item" data-value="4">
+    <YoutubeEmbed embedId="lUgRb62Gizk" />
+  </div>,
 ]
 
 const Section7 = () => {

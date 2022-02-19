@@ -14,7 +14,7 @@ const Section14 = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     send(
-      // Data
+      // settings
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text)
@@ -59,7 +59,7 @@ const Section14 = () => {
               <button type='submit' className='btn-send'>Senden</button>
             </div>
             <div className='section14__content__message__right'>
-              <input
+              <textarea
                 className='nachricht'
                 type='text'
                 name='message'

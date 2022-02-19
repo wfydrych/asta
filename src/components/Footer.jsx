@@ -1,6 +1,13 @@
 import React from 'react'
 import './Footer.sass'
-import {Icon} from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react'
+
+function scrollTo(selector, yOffset = 0) {
+  const el = document.querySelector(selector)
+  const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset
+
+  el.scrollIntoView({top: y, behavior: 'smooth'})
+}
 
 const Footer = () => {
   return (
@@ -11,19 +18,37 @@ const Footer = () => {
       </div>
       <div className='footer__section2 footer__sections'>
         <div className='footer__title'>INFORMATION</div>
-        <div className='footer__links'>KONTAKT</div>
-        <div className='footer__links'>DAS UNTERNEHMEN</div>
-        <div className='footer__links'>UNZER POTENZIAL</div>
-        <div className='footer__links'>DOWNLOAD</div>
-        <div className='footer__links'>QUALITATSZERTIFIKATE</div>
+        <div onClick={() => scrollTo('.section14', 0)} className='footer__links'>KONTAKT</div>
+        <a href="https://www.intertlc.de/das-unternehmen/" target="_blank" rel="noreferrer">
+          <div className='footer__links'>DAS UNTERNEHMEN</div>
+        </a>
+        <a href="https://www.intertlc.de/das-unternehmen/unser-potenzial/" target="_blank" rel="noreferrer">
+          <div className='footer__links'>UNZER POTENZIAL</div>
+        </a>
+        <a href="https://www.intertlc.de/download/" target="_blank" rel="noreferrer">
+          <div className='footer__links'>DOWNLOAD</div>
+        </a>
+        <a href="https://www.intertlc.de/qualitatszertifikate/" target="_blank" rel="noreferrer">
+          <div className='footer__links'>QUALITATSZERTIFIKATE</div>
+        </a>
       </div>
       <div className='footer__section3 footer__sections'>
         <div className='footer__title'>INFORMATION</div>
-        <div className='footer__links'>ABSPERRUNG</div>
-        <div className='footer__links'>BAUUMZÄUNUNG</div>
-        <div className='footer__links'>TEMPORÄRE MASCHENZÄUNE</div>
-        <div className='footer__links'>TECHNISCHE DOKUMENTATION</div>
-        <div className='footer__links'>DATENSCHUTZERKLÄRUNG</div>
+        <a href="https://www.intertlc.de/mobile-system/temporare-umzaunungen/absperrung/" target="_blank" rel="noreferrer">
+          <div className='footer__links'>ABSPERRUNG</div>
+        </a>
+        <a href="https://www.intertlc.de/mobile-system/temporare-umzaunungen/bauumzaunung/" target="_blank" rel="noreferrer">
+          <div className='footer__links'>BAUUMZÄUNUNG</div>
+        </a>
+        <a href="https://www.intertlc.de/mobile-system/temporare-umzaunungen/temporare-maschenzaune/" target="_blank" rel="noreferrer">
+          <div className='footer__links'>TEMPORÄRE MASCHENZÄUNE</div>
+        </a>
+        <a href="https://www.intertlc.de/technische-dokumentation/" target="_blank" rel="noreferrer">
+          <div className='footer__links'>TECHNISCHE DOKUMENTATION</div>
+        </a>
+        <a href="https://www.intertlc.de/datenschutzerklarung/" target="_blank" rel="noreferrer">
+          <div className='footer__links'>DATENSCHUTZERKLÄRUNG</div>
+        </a>
       </div>
       <div className='footer__section4 footer__sections'>
         <div className='footer__title'>FINDEN SIE UNS AUF</div>
